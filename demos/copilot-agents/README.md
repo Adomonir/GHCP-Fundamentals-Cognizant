@@ -1,6 +1,10 @@
-# Copilot Agents Demo (No Setup)
+# Copilot Agents Demo
 
-This repository is intentionally minimal so you can demo GitHub Copilot Agents with zero local setup. The only “live” step in the demo is creating an issue and assigning it to Copilot so the agent returns a pull request you can review.
+Use the following 3 files to setup your Copilot Agents demo. 
+Create a repo with the same README file as this one.
+Paste the ISSUE.md file into a new issue in that repository. 
+Assign Copilot to the new Issue in the new repository.
+Use the STEER.md file to course correct the agent mid session. 
 
 ## What this demo shows
 - Assign an issue to Copilot to start an agent task
