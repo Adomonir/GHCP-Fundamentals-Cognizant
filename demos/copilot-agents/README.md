@@ -21,7 +21,8 @@ Use the STEER.md file to course correct the agent mid session.
 2. Assign the issue to Copilot to start the agent task
 3. Open AgentHQ to monitor progress
 4. Paste `STEER.md` into the agent session to re-steer the work
-5. Review the PR diff for clarity, completeness, and constraints
+5. Review the PR diff for clarity, completeness, and constraints.
+6. Verify the PR edited the README.md file by adding priority levels plus the steered examples. 
 
 ---
 
