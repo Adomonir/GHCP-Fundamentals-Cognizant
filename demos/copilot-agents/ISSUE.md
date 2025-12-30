@@ -21,5 +21,4 @@ We want to add a Priority system to our triage policy so tickets are handled con
 
 ### Acceptance criteria
 - The README has a Priority section with definitions
-- There is a simple mapping table or bullet mapping
 - There is a short triage checklist
