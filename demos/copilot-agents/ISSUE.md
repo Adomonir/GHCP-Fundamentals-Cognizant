@@ -2,7 +2,6 @@
 
 1) Use the Title tag below for your Issue name. 
 2) Paste the Body section into the issue.
-3) Assign Copilot to have an agent start the task! 
 
 ---
 
