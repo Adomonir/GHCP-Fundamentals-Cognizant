@@ -23,16 +23,29 @@ Paste the ISSUE.md file into a new issue in that repository.
 
 ---
 
-## Ticket Triage Policy (Current)
+## Ticket Triage Policy
 
-We currently triage support tickets using Severity only.
+We triage support tickets using Severity and Priority to ensure consistent handling.
 
 ### Severity levels
-- Low means minor annoyance with an easy workaround
-- Medium means a meaningful user impact but workarounds exist
-- High means blocks key workflows or causes data loss
+- **Low**: Minor annoyance with an easy workaround
+- **Medium**: Meaningful user impact but workarounds exist
+- **High**: Blocks key workflows or causes data loss
 
-### Current rules
-- Triage happens daily
-- High severity should be addressed first
-- We do not currently define priority labels, default ownership, or a fast triage checklist
+### Priority levels
+- **P0**: Critical - immediate action required (production down, data loss)
+- **P1**: Urgent - resolve within 24 hours (major feature broken, security issue)
+- **P2**: Important - resolve within 1 week (moderate impact, plan needed)
+- **P3**: Normal - resolve when capacity allows (minor issues, enhancements)
+
+### Severity to Priority mapping
+- High Severity → P0 or P1 (depending on scope)
+- Medium Severity → P1 or P2 (depending on impact)
+- Low Severity → P2 or P3 (depending on demand)
+
+### How to triage in 60 seconds
+1. **Read** the ticket description and reproduce steps
+2. **Assess** severity based on user impact
+3. **Assign** priority based on severity and urgency
+4. **Label** the ticket with severity and priority tags
+5. **Route** to appropriate team or owner
