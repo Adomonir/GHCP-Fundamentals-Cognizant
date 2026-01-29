@@ -23,6 +23,42 @@ For effective interaction with Copilot, it's essential to keep in mind that **Co
 ![copilot](docs/images/copilot32.png) 
 ***"I’m powered by AI, so surprises and mistakes are possible. Make sure to verify any generated code or suggestions, and share feedback so that we can learn and improve."***
 
+
+## Issue Triage Policy
+
+### Priority Levels
+
+We use a four-level priority system to ensure consistent handling of issues:
+
+| Priority | Description | Response Time Target |
+|----------|-------------|---------------------|
+| **P0** | Critical - Service outage or security vulnerability affecting production | Immediate (< 1 hour) |
+| **P1** | High - Major feature broken, significant user impact | Same day (< 8 hours) |
+| **P2** | Medium - Feature partially broken, moderate user impact | Within 3 business days |
+| **P3** | Low - Minor issue, cosmetic problem, or enhancement request | Best effort (2 weeks) |
+
+### Severity to Priority Mapping
+
+When triaging issues, use this default mapping as a starting point:
+
+| Severity | Default Priority | Examples |
+|----------|-----------------|----------|
+| Critical | P0 | Production down, data loss, security breach |
+| High | P1 | Major feature broken, performance degradation |
+| Medium | P2 | Feature partially working, minor bugs |
+| Low | P3 | UI polish, documentation updates, nice-to-haves |
+
+**Note:** Priority can be adjusted based on business impact, number of affected users, and available workarounds.
+
+### How to Triage in 60 Seconds
+
+1. **Reproduce** - Can you confirm the issue exists?
+2. **Severity** - How bad is it? (Critical/High/Medium/Low)
+3. **Impact** - How many users are affected?
+4. **Priority** - Use severity mapping + business context
+5. **Label** - Add appropriate labels (bug, enhancement, etc.)
+6. **Assign** - Route to the right team or keep unassigned for backlog
+
 # Let's Build From Here...
 ---
 ### Please follow these links to the exercises...
